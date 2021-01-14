@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2021_1_14_23_16_[Default_Changelist]" date="1610637393341" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_1_14_23_16_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2021/1/14 23:16 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="huiminpay-common/target/classes/com/huiminpay/common/cache/util/MD5Util.class" />
+    <option name="AFTER_PATH" value="huiminpay-common/target/classes/com/huiminpay/common/cache/util/MD5Util.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_1_14_23_16_[Default_Changelist]/MD5Util.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="huiminpay-common/target/classes/com/huiminpay/common/cache/util/DateUtil.class" />
+    <option name="AFTER_PATH" value="huiminpay-common/target/classes/com/huiminpay/common/cache/util/DateUtil.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_1_14_23_16_[Default_Changelist]/DateUtil.class" />
+  </binary>
+</changelist>

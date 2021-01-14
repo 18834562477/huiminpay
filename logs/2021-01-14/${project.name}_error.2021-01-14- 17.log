@@ -1,0 +1,18 @@
+[${project.name}][${env:SERVER_PORT}]   2021-01-14 18:55:38,724   ERROR   [main][LoggingFailureAnalysisReporter.java:42]   -   
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field merchantMapper in com.huiminpay.merchant.service.impl.MerchantService required a bean of type 'com.huiminpay.merchant.mapper.MerchantMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.huiminpay.merchant.mapper.MerchantMapper' in your configuration.
+

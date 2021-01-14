@@ -1,0 +1,308 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <modules>\r\n        <module>huiminpay-common</module>\r\n    </modules>\r\n    <parent>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-starter-parent</artifactId>\r\n        <version>2.1.3.RELEASE</version>\r\n    </parent>\r\n    <groupId>com.huiminpay</groupId>\r\n    <artifactId>huiminpay</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <packaging>pom</packaging>\r\n    <properties>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>\r\n        <java.version>1.8</java.version>\r\n        <org.projectlombok.version>1.18.0</org.projectlombok.version>\r\n        <org.mapstruct.version>1.3.0.Final</org.mapstruct.version>\r\n    </properties>\r\n    <dependencyManagement>\r\n        <dependencies>\r\n\r\n            <dependency>\r\n                <groupId>com.alibaba.cloud</groupId>\r\n                <artifactId>spring-cloud-alibaba-dependencies</artifactId>\r\n                <version>2.1.0.RELEASE</version>\r\n                <type>pom</type>\r\n                <scope>import</scope>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>org.springframework.cloud</groupId>\r\n                <artifactId>spring-cloud-dependencies</artifactId>\r\n                <version>Greenwich.RELEASE</version>\r\n                <type>pom</type>\r\n                <scope>import</scope>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>io.springfox</groupId>\r\n                <artifactId>springfox-swagger2</artifactId>\r\n                <version>2.9.2</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>io.springfox</groupId>\r\n                <artifactId>springfox-swagger-ui</artifactId>\r\n                <version>2.9.2</version>\r\n            </dependency>\r\n\r\n\r\n            <dependency>\r\n                <groupId>org.springframework.security</groupId>\r\n                <artifactId>spring-security-jwt</artifactId>\r\n                <version>1.0.9.RELEASE</version>\r\n            </dependency>\r\n\r\n\r\n            <dependency>\r\n                <groupId>org.springframework.security.oauth.boot</groupId>\r\n                <artifactId>spring-security-oauth2-autoconfigure</artifactId>\r\n                <version>2.1.3.RELEASE</version>\r\n            </dependency>\r\n\r\n\r\n            <dependency>\r\n                <groupId>org.projectlombok</groupId>\r\n                <artifactId>lombok</artifactId>\r\n                <version>${org.projectlombok.version}</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.alibaba</groupId>\r\n                <artifactId>druid-spring-boot-starter</artifactId>\r\n                <version>1.1.16</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>mysql</groupId>\r\n                <artifactId>mysql-connector-java</artifactId>\r\n                <version>8.0.11</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.baomidou</groupId>\r\n                <artifactId>mybatis-plus-boot-starter</artifactId>\r\n                <version>3.1.0</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.baomidou</groupId>\r\n                <artifactId>mybatis-plus-extension</artifactId>\r\n                <version>3.1.0</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.baomidou</groupId>\r\n                <artifactId>mybatis-plus-generator</artifactId>\r\n                <version>3.1.0</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>org.mybatis</groupId>\r\n                <artifactId>mybatis-typehandlers-jsr310</artifactId>\r\n                <version>1.0.2</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>commons-lang</groupId>\r\n                <artifactId>commons-lang</artifactId>\r\n                <version>2.6</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>org.mapstruct</groupId>\r\n                <artifactId>mapstruct-jdk8</artifactId>\r\n                <version>${org.mapstruct.version}</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.google.guava</groupId>\r\n                <artifactId>guava</artifactId>\r\n                <version>25.0-jre</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.google.code.gson</groupId>\r\n                <artifactId>gson</artifactId>\r\n                <version>2.8.2</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.alibaba</groupId>\r\n                <artifactId>fastjson</artifactId>\r\n                <version>1.2.47</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>org.apache.shardingsphere</groupId>\r\n                <artifactId>sharding-jdbc-spring-boot-starter</artifactId>\r\n                <version>4.0.0-RC1</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.alipay.sdk</groupId>\r\n                <artifactId>alipay-sdk-java</artifactId>\r\n                <version>3.7.73.ALL</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.github.tedzhdz</groupId>\r\n                <artifactId>wxpay-sdk</artifactId>\r\n                <version>3.0.10</version>\r\n            </dependency>\r\n\r\n            <dependency>\r\n                <groupId>com.github.binarywang</groupId>\r\n                <artifactId>weixin-java-pay</artifactId>\r\n                <version>3.4.0</version>\r\n            </dependency>\r\n            <dependency>\r\n                <groupId>com.qiniu</groupId>\r\n                <artifactId>qiniu-java-sdk</artifactId>\r\n                <version>7.2.25</version>\r\n            </dependency>\r\n            <dependency>\r\n                <groupId>com.squareup.okhttp3</groupId>\r\n                <artifactId>okhttp</artifactId>\r\n                <version>3.9.1</version>\r\n            </dependency>\r\n            <dependency>\r\n                <groupId>org.apache.rocketmq</groupId>\r\n                <artifactId>rocketmq-spring-boot-starter</artifactId>\r\n                <version>2.0.2</version>\r\n            </dependency>\r\n            <dependency>\r\n                <groupId>org.springframework.boot</groupId>\r\n                <artifactId>spring-boot-starter-data-redis</artifactId>\r\n                <version>2.1.3.RELEASE</version>\r\n            </dependency>\r\n\r\n        </dependencies>\r\n    </dependencyManagement>\r\n\r\n    <build>\r\n        <finalName>${project.name}</finalName>\r\n        <resources>\r\n            <resource>\r\n                <directory>src/main/resources</directory>\r\n                <filtering>true</filtering>\r\n                <includes>\r\n                    <include>**/*</include>\r\n                </includes>\r\n            </resource>\r\n            <resource>\r\n                <directory>src/main/java</directory>\r\n                <includes>\r\n                    <include>**/*.xml</include>\r\n                </includes>\r\n            </resource>\r\n        </resources>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.springframework.boot</groupId>\r\n                <artifactId>spring-boot-maven-plugin</artifactId>\r\n            </plugin>\r\n\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-compiler-plugin</artifactId>\r\n                <configuration>\r\n                    <source>1.8</source>\r\n                    <target>1.8</target>\r\n                </configuration>\r\n            </plugin>\r\n\r\n            <plugin>\r\n                <artifactId>maven-resources-plugin</artifactId>\r\n                <configuration>\r\n                    <encoding>utf-8</encoding>\r\n                    <useDefaultDelimiters>true</useDefaultDelimiters>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ pom.xml	(date 1610624780554)
+@@ -5,6 +5,10 @@
+     <modelVersion>4.0.0</modelVersion>
+     <modules>
+         <module>huiminpay-common</module>
++        <module>huiminpay-merchant-application</module>
++        <module>huiminpay-merchant</module>
++        <module>huiminpay-merchant/huiminpay-merchant-api</module>
++        <module>huiminpay-merchant/huiminpay-merchant-service</module>
+     </modules>
+     <parent>
+         <groupId>org.springframework.boot</groupId>
+Index: huiminpay-common/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <parent>\r\n        <artifactId>huiminpay</artifactId>\r\n        <groupId>com.huiminpay</groupId>\r\n        <version>1.0-SNAPSHOT</version>\r\n    </parent>\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <artifactId>huiminpay-common</artifactId>\r\n    <dependencies>\r\n\r\n        <dependency>\r\n            <groupId>org.slf4j</groupId>\r\n            <artifactId>slf4j-api</artifactId>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>com.alibaba</groupId>\r\n            <artifactId>fastjson</artifactId>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>javax.servlet</groupId>\r\n            <artifactId>javax.servlet-api</artifactId>\r\n            <scope>provided</scope>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>commons-lang</groupId>\r\n            <artifactId>commons-lang</artifactId>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>io.springfox</groupId>\r\n            <artifactId>springfox-swagger2</artifactId>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>io.springfox</groupId>\r\n            <artifactId>springfox-swagger-ui</artifactId>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.projectlombok</groupId>\r\n            <artifactId>lombok</artifactId>\r\n        </dependency>\r\n\r\n    </dependencies>\r\n\r\n\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.springframework.boot</groupId>\r\n                <artifactId>spring-boot-maven-plugin</artifactId>\r\n                <configuration>\r\n                    <skip>true</skip>\r\n                    <finalName>${project.name}</finalName>\r\n                </configuration>\r\n            </plugin>\r\n\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-compiler-plugin</artifactId>\r\n                <configuration>\r\n                    <source>1.8</source>\r\n                    <target>1.8</target>\r\n                    <compilerArguments>\r\n                        <bootclasspath>${java.home}/lib/rt.jar;${java.home}/lib/jce.jar</bootclasspath>\r\n                    </compilerArguments>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- huiminpay-common/pom.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ huiminpay-common/pom.xml	(date 1610626372549)
+@@ -47,7 +47,17 @@
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok</artifactId>
+         </dependency>
++        <dependency>
++            <groupId>io.springfox</groupId>
++            <artifactId>springfox-swagger2</artifactId>
++
++        </dependency>
+ 
++        <dependency>
++            <groupId>io.springfox</groupId>
++            <artifactId>springfox-swagger-ui</artifactId>
++
++        </dependency>
+     </dependencies>
+ 
+ 
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"huiminpay-common\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"huiminpay\" target=\"1.8\" />\r\n      <module name=\"huiminpay-common\" target=\"1.8\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"huiminpay-common\" options=\"-parameters -bootclasspath &quot;C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/compiler.xml	(date 1610615427795)
+@@ -6,17 +6,29 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
++        <module name="huiminpay-merchant-application" />
++        <module name="huiminpay-merchant-api" />
++        <module name="huiminpay-merchant-service" />
++        <module name="huiminpay-merchant" />
+         <module name="huiminpay-common" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
+       <module name="huiminpay" target="1.8" />
+       <module name="huiminpay-common" target="1.8" />
++      <module name="huiminpay-merchant" target="1.8" />
++      <module name="huiminpay-merchant-api" target="1.8" />
++      <module name="huiminpay-merchant-application" target="1.8" />
++      <module name="huiminpay-merchant-service" target="1.8" />
+     </bytecodeTargetLevel>
+   </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+       <module name="huiminpay-common" options="-parameters -bootclasspath &quot;C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
++      <module name="huiminpay-merchant" options="-parameters" />
++      <module name="huiminpay-merchant-api" options="-parameters" />
++      <module name="huiminpay-merchant-application" options="-parameters" />
++      <module name="huiminpay-merchant-service" options="-parameters" />
+     </option>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework:spring-beans:5.1.5.RELEASE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.slf4j:slf4j-api:1.7.25">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework:spring-context:5.1.5.RELEASE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework:spring-aop:5.1.5.RELEASE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: net.bytebuddy:byte-buddy:1.9.10">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework:spring-core:5.1.5.RELEASE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework:spring-expression:5.1.5.RELEASE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../myTools/apache-maven-3.6.3/maven-repository/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/huiminpay.iml\" filepath=\"$PROJECT_DIR$/huiminpay.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/huiminpay-common/huiminpay-common.iml\" filepath=\"$PROJECT_DIR$/huiminpay-common/huiminpay-common.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/modules.xml	(date 1610615385944)
+@@ -4,6 +4,10 @@
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/huiminpay.iml" filepath="$PROJECT_DIR$/huiminpay.iml" />
+       <module fileurl="file://$PROJECT_DIR$/huiminpay-common/huiminpay-common.iml" filepath="$PROJECT_DIR$/huiminpay-common/huiminpay-common.iml" />
++      <module fileurl="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant.iml" filepath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant.iml" />
++      <module fileurl="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/huiminpay-merchant-api.iml" filepath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/huiminpay-merchant-api.iml" />
++      <module fileurl="file://$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" filepath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" />
++      <module fileurl="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/huiminpay-merchant-service.iml" filepath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/huiminpay-merchant-service.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\" defaultCharsetForPropertiesFiles=\"UTF-8\">\r\n    <file url=\"file://$PROJECT_DIR$/huiminpay-common/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/huiminpay-common/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"PROJECT\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/encodings.xml	(revision 6acc788d3546c87ec3e997c5c1d61e465d18ee3a)
++++ .idea/encodings.xml	(date 1610615427797)
+@@ -3,6 +3,14 @@
+   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+     <file url="file://$PROJECT_DIR$/huiminpay-common/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/huiminpay-common/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant-application/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant-application/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/huiminpay-merchant/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+     <file url="PROJECT" charset="UTF-8" />
