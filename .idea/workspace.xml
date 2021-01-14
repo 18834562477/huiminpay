@@ -15,7 +15,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="" />
+    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,15 +74,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.huiminpay.merchant.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project1\huiminpay" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant-application\src\main\java\com\huiminpay\merchant" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant-application\src\main\resources" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant\huiminpay-merchant-service\src\main\java\com\huiminpay\merchant" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant\huiminpay-merchant-service\src\main\java\com\huiminpay\merchant\config" />
-      <recent name="D:\Project1\huiminpay\huiminpay-merchant\huiminpay-merchant-service\src\main\resources" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.huiminpay.merchant.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -139,7 +141,7 @@
       <workItem from="1610622946188" duration="4084000" />
       <workItem from="1610637234097" duration="172000" />
       <workItem from="1610637430381" duration="1517000" />
-      <workItem from="1610638961110" duration="338000" />
+      <workItem from="1610638961110" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="huiminpay">
       <created>1610597351719</created>
@@ -169,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610613065548</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="商户服务框架搭建">
+      <created>1610639432694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639432694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="huiminpay" />
-    <option name="LAST_COMMIT_MESSAGE" value="huiminpay" />
+    <MESSAGE value="商户服务框架搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="商户服务框架搭建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="189" key="#Project_Structure" timestamp="1610639074223">
@@ -254,54 +264,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="526" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610620143118" />
-    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610639357012">
+    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610639431719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639357012" />
+    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639431719" />
     <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610638818908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="914" y="413" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610638818908" />
-    <state width="963" height="218" key="GridCell.Tab.0.bottom" timestamp="1610639287520">
+    <state width="963" height="218" key="GridCell.Tab.0.bottom" timestamp="1610639467769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287520" />
-    <state width="963" height="218" key="GridCell.Tab.0.center" timestamp="1610639287520">
+    <state width="963" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
+    <state width="963" height="218" key="GridCell.Tab.0.center" timestamp="1610639467769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287520" />
-    <state width="963" height="218" key="GridCell.Tab.0.left" timestamp="1610639287520">
+    <state width="963" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
+    <state width="963" height="218" key="GridCell.Tab.0.left" timestamp="1610639467769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287520" />
-    <state width="963" height="218" key="GridCell.Tab.0.right" timestamp="1610639287520">
+    <state width="963" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
+    <state width="963" height="218" key="GridCell.Tab.0.right" timestamp="1610639467769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287520" />
-    <state width="963" height="218" key="GridCell.Tab.1.bottom" timestamp="1610639287521">
+    <state width="963" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
+    <state width="963" height="218" key="GridCell.Tab.1.bottom" timestamp="1610639467770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287521" />
-    <state width="963" height="218" key="GridCell.Tab.1.center" timestamp="1610639287520">
+    <state width="963" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
+    <state width="963" height="218" key="GridCell.Tab.1.center" timestamp="1610639467770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287520" />
-    <state width="963" height="218" key="GridCell.Tab.1.left" timestamp="1610639287520">
+    <state width="963" height="218" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
+    <state width="963" height="218" key="GridCell.Tab.1.left" timestamp="1610639467770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287520" />
-    <state width="963" height="218" key="GridCell.Tab.1.right" timestamp="1610639287521">
+    <state width="963" height="218" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
+    <state width="963" height="218" key="GridCell.Tab.1.right" timestamp="1610639467770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639287521" />
+    <state width="963" height="218" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
     <state x="405" y="189" key="SettingsEditor" timestamp="1610638946454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="405" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610638946454" />
-    <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610639382140">
+    <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610639444579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639382140" />
+    <state x="739" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639444579" />
     <state x="329" y="192" width="1127" height="706" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610638173172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1004" y="355" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610597658966" />
-    <state x="899" y="482" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610611733028">
+    <state x="899" y="482" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610639599468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="899" y="482" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610611733028" />
+    <state x="899" y="482" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610639599468" />
     <state x="669" y="220" key="new project wizard" timestamp="1610615384135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
