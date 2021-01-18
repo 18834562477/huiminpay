@@ -25,35 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/domain/CommonErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/domain/ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/domain/PageRequestParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/domain/PageVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/domain/RestResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/AmountUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/EncryptUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/IPUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/MapStringConvertUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/ParseURLPairUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/PhoneUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/RSAUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/RandomStringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/RandomUuidUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-common/target/classes/com/huiminpay/common/cache/util/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/service/impl/SmsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/controller/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/controller/MerchantController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/service/impl/SmsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/service/impl/SmsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/com/huiminpay/merchant/service/impl/MerchantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/com/huiminpay/merchant/service/impl/MerchantService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-01-14/${project.name}_error.2021-01-14- 19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2021-01-14/${project.name}_error.2021-01-14- 19.log" afterDir="false" />
-    </list>
+    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +217,7 @@
       <workItem from="1610708364347" duration="547000" />
       <workItem from="1610933924129" duration="572000" />
       <workItem from="1610935137845" duration="3234000" />
-      <workItem from="1610949979634" duration="11554000" />
+      <workItem from="1610949979634" duration="12182000" />
     </task>
     <task id="LOCAL-00001" summary="huiminpay">
       <created>1610597351719</created>
@@ -303,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610957623916</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="校验验证码异常捕捉优化。">
+      <created>1610962782302</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610962782302</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,10 +379,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610699016504" />
-    <state x="563" y="134" key="CommitChangelistDialog2" timestamp="1610962743441">
+    <state x="563" y="134" key="CommitChangelistDialog2" timestamp="1610962781566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="563" y="134" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610962743441" />
+    <state x="563" y="134" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610962781566" />
     <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610955253913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="593" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610937812850" />
-    <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610957637876">
+    <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610962788191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610957637876" />
+    <state x="739" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610962788191" />
     <state x="329" y="192" width="1127" height="706" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610638173172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
