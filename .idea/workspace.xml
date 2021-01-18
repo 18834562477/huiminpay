@@ -25,24 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="商户服务框架搭建">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/MerchantApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/MerchantApplicationBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/MerchantApplicationBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/MerchantApplicationBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/controller/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/controller/MerchantController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/dto/MerchantDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/dto/MerchantDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/service/MerchantServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/service/MerchantServiceApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/dto/MerchantDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/dto/MerchantDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/service/MerchantServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/service/MerchantServiceApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java/com/huiminpay/merchant/service/impl/MerchantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java/com/huiminpay/merchant/service/impl/MerchantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/com/huiminpay/merchant/service/impl/MerchantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/com/huiminpay/merchant/service/impl/MerchantService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-01-14/${project.name}_error.2021-01-14- 19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2021-01-14/${project.name}_error.2021-01-14- 19.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +191,8 @@
       <workItem from="1610638961110" duration="640000" />
       <workItem from="1610692988517" duration="9816000" />
       <workItem from="1610708364347" duration="547000" />
-      <workItem from="1610933924129" duration="348000" />
+      <workItem from="1610933924129" duration="572000" />
+      <workItem from="1610935137845" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="huiminpay">
       <created>1610597351719</created>
@@ -244,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610639432694</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加商户">
+      <created>1610934465136</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610934465136</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="huiminpay" />
     <MESSAGE value="商户服务框架搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="商户服务框架搭建" />
+    <MESSAGE value="添加商户" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加商户" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="189" key="#Project_Structure" timestamp="1610639074223">
@@ -334,10 +327,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610699016504" />
-    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610934133981">
+    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610934464412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610934133981" />
+    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610934464412" />
     <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610694457624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,10 +367,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="963" height="170" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state x="405" y="189" key="SettingsEditor" timestamp="1610640257382">
+    <state x="593" y="158" key="SettingsEditor" timestamp="1610934359264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="405" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610640257382" />
+    <state x="593" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610934359264" />
     <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610933950477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
