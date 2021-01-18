@@ -19,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Service
 public class MerchantService implements MerchantServiceApi {
 
+
     @Autowired
     private MerchantMapper merchantMapper;
     @Override
@@ -28,5 +29,25 @@ public class MerchantService implements MerchantServiceApi {
         //..............
         BeanUtils.copyProperties(merchant,merchantDTO);
         return merchantDTO;
+    }
+
+
+    //注册商户
+    @Override
+    public MerchantDTO createMerchant(MerchantDTO merchantDTO) {
+        Merchant merchant = new Merchant();
+        //设置审核状态0‐未申请,1‐已申请待审核,2‐审核通过,3‐审核拒绝
+        merchant.setAuditStatus("0");
+        //设置手机号
+        merchant.setMobile(merchantDTO.getMobile());
+
+        //将商户信息存入merchant表
+        merchantMapper.insert(merchant);
+
+        //将新增商户id返回
+        merchantDTO.setId(merchant.getId());
+
+        return merchantDTO;
+
     }
 }

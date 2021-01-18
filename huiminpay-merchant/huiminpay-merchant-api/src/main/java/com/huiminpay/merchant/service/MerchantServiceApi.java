@@ -13,4 +13,7 @@ import com.huiminpay.merchant.dto.MerchantDTO;
 public interface MerchantServiceApi {
     //根据id获取商户信息
     public MerchantDTO findMerchantById(Long id);
+    //注册商户
+    public MerchantDTO createMerchant(MerchantDTO merchantDTO);
+
 }

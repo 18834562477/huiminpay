@@ -6,17 +6,43 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="">
+    <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="商户服务框架搭建">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/MerchantApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/MerchantApplicationBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/MerchantApplicationBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/MerchantApplicationBootstrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/controller/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/target/classes/com/huiminpay/merchant/controller/MerchantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/dto/MerchantDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/dto/MerchantDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/service/MerchantServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/src/main/java/com/huiminpay/merchant/service/MerchantServiceApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/dto/MerchantDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/dto/MerchantDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/service/MerchantServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/target/classes/com/huiminpay/merchant/service/MerchantServiceApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java/com/huiminpay/merchant/service/impl/MerchantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java/com/huiminpay/merchant/service/impl/MerchantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/com/huiminpay/merchant/service/impl/MerchantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/com/huiminpay/merchant/service/impl/MerchantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2021-01-14/${project.name}_error.2021-01-14- 19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2021-01-14/${project.name}_error.2021-01-14- 19.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +64,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9723adee-8e9b-48ee-98a2-d5e1787f3042" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -65,24 +94,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.huiminpay.merchant.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project1\huiminpay" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant-application\src\main\java\com\huiminpay\merchant" />
+      <recent name="D:\Project1\huiminpay\huiminpay-merchant\huiminpay-merchant-api\src\main\java\com\huiminpay\merchant\dto" />
+      <recent name="D:\Project1\huiminpay" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant-application\src\main\resources" />
       <recent name="D:\Project1\huiminpay\huiminpay-merchant\huiminpay-merchant-service\src\main\java\com\huiminpay\merchant" />
-      <recent name="D:\Project1\huiminpay\huiminpay-merchant\huiminpay-merchant-service\src\main\java\com\huiminpay\merchant\config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.huiminpay.merchant.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,6 +122,38 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MerchantBootstrap">
+    <configuration name="TestRestTemplate.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huiminpay-merchant-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huiminpay.merchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huiminpay.merchant" />
+      <option name="MAIN_CLASS_NAME" value="com.huiminpay.merchant.TestRestTemplate" />
+      <option name="METHOD_NAME" value="fun" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRestTemplate.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="huiminpay-merchant-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huiminpay.merchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huiminpay.merchant" />
+      <option name="MAIN_CLASS_NAME" value="com.huiminpay.merchant.TestRestTemplate" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MerchantApplicationBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="huiminpay-merchant-application" />
       <extension name="coverage">
@@ -123,6 +184,8 @@
       <list>
         <item itemvalue="Spring Boot.MerchantBootstrap" />
         <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
+        <item itemvalue="JUnit.TestRestTemplate.fun1" />
+        <item itemvalue="JUnit.TestRestTemplate.fun" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +205,9 @@
       <workItem from="1610637234097" duration="172000" />
       <workItem from="1610637430381" duration="1517000" />
       <workItem from="1610638961110" duration="640000" />
+      <workItem from="1610692988517" duration="9816000" />
+      <workItem from="1610708364347" duration="547000" />
+      <workItem from="1610933924129" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="huiminpay">
       <created>1610597351719</created>
@@ -256,62 +322,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="375" y="189" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610639074223" />
-    <state x="1098" y="308" key="#com.intellij.ide.util.MemberChooser" timestamp="1610621205974">
+    <state x="1098" y="308" key="#com.intellij.ide.util.MemberChooser" timestamp="1610701126975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1098" y="308" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610621205974" />
+    <state x="1098" y="308" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610701126975" />
     <state x="783" y="526" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610620143118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="526" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610620143118" />
-    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610639431719">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610699016504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639431719" />
-    <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610638818908">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610699016504" />
+    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610934133981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="914" y="413" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610638818908" />
-    <state width="963" height="218" key="GridCell.Tab.0.bottom" timestamp="1610639467769">
+    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610934133981" />
+    <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610694457624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
-    <state width="963" height="218" key="GridCell.Tab.0.center" timestamp="1610639467769">
+    <state x="914" y="413" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610694457624" />
+    <state width="963" height="170" key="GridCell.Tab.0.bottom" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
-    <state width="963" height="218" key="GridCell.Tab.0.left" timestamp="1610639467769">
+    <state width="963" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.0.center" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
-    <state width="963" height="218" key="GridCell.Tab.0.right" timestamp="1610639467769">
+    <state width="963" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.0.left" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467769" />
-    <state width="963" height="218" key="GridCell.Tab.1.bottom" timestamp="1610639467770">
+    <state width="963" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.0.right" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
-    <state width="963" height="218" key="GridCell.Tab.1.center" timestamp="1610639467770">
+    <state width="963" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.1.bottom" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
-    <state width="963" height="218" key="GridCell.Tab.1.left" timestamp="1610639467770">
+    <state width="963" height="170" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.1.center" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
-    <state width="963" height="218" key="GridCell.Tab.1.right" timestamp="1610639467770">
+    <state width="963" height="170" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.1.left" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="218" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639467770" />
-    <state x="405" y="189" key="SettingsEditor" timestamp="1610638946454">
+    <state width="963" height="170" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state width="963" height="170" key="GridCell.Tab.1.right" timestamp="1610708912202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="405" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610638946454" />
-    <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610639444579">
+    <state width="963" height="170" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
+    <state x="405" y="189" key="SettingsEditor" timestamp="1610640257382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639444579" />
+    <state x="405" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610640257382" />
+    <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610933950477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610933950477" />
     <state x="329" y="192" width="1127" height="706" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610638173172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
