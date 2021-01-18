@@ -66,6 +66,7 @@ public class MerchantController {
             "MerchantRegisterVO", paramType = "body")
     @PostMapping("/merchants/register")
     public MerchantRegisterVO registerMerchant(@RequestBody MerchantRegisterVO merchantRegister) {
+
         //校验验证码
         smsServiceImpl.checkVerifyCode(
                 merchantRegister.getVerifiykey(),

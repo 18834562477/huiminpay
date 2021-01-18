@@ -1,7 +1,10 @@
 package com.huiminpay.merchant.service.impl;
 
+import com.huiminpay.common.domain.BusinessException;
+import com.huiminpay.common.domain.CommonErrorCode;
 import com.huiminpay.merchant.service.api.SmsService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
@@ -74,24 +77,28 @@ public class SmsServiceImpl implements SmsService {
 
     @Override
     public void checkVerifyCode(String verifyKey, String verifyCode) {
-        //实现校验验证码的逻辑
         String url = sms_url + "/verify?name=sms&verificationCode=" + verifyCode + "&verificationKey=" + verifyKey;
-        Map responseMap = null;
+        Map responseBody = null;
 
+        if (StringUtils.isEmpty(verifyCode)){
+            throw new BusinessException(CommonErrorCode.E_100103);
+        }
         try {
-        //请求校验验证码
             ResponseEntity<Map> exchange = restTemplate.exchange(url, HttpMethod.POST, HttpEntity.EMPTY, Map.class);
-            responseMap = exchange.getBody();
-          //  log.info("校验验证码，响应内容：{}", JSON.toJSONString(responseMap));
-        } catch (Exception e) {
-            e.printStackTrace();
-          //
-            //  log.info(e.getMessage(), e);
-            throw new RuntimeException("验证码错误");
+            responseBody = exchange.getBody();
+            if (responseBody == null ){
+                throw new BusinessException(CommonErrorCode.E_100102);
+            }
+
+            Boolean flag = (Boolean) responseBody.get("result");
+            if (!flag){
+                throw new BusinessException(CommonErrorCode.E_100102);
+            }
+        }catch (Exception e){
+            log.error("验证码是{},验证码的key是{}，校验验证码出错！",verifyCode,verifyKey);
+            log.error(e.getMessage());
+            throw new BusinessException(CommonErrorCode.E_100102);
         }
 
-        if (responseMap == null || responseMap.get("result") == null || !(Boolean) responseMap.get("result")) {
-            throw new RuntimeException("验证码错误");
-        }
     }
 }
