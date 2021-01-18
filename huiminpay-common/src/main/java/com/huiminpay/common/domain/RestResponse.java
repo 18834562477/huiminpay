@@ -1,4 +1,4 @@
-package com.huiminpay.common.cache.domain;
+package com.huiminpay.common.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

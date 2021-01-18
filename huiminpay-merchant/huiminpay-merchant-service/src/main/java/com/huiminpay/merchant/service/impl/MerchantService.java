@@ -1,5 +1,6 @@
 package com.huiminpay.merchant.service.impl;
 
+import com.huiminpay.merchant.convert.MerchantConvert;
 import com.huiminpay.merchant.dto.MerchantDTO;
 import com.huiminpay.merchant.entity.Merchant;
 import com.huiminpay.merchant.mapper.MerchantMapper;
@@ -35,19 +36,18 @@ public class MerchantService implements MerchantServiceApi {
     //注册商户
     @Override
     public MerchantDTO createMerchant(MerchantDTO merchantDTO) {
-        Merchant merchant = new Merchant();
+
+        Merchant merchant = MerchantConvert.INSTANCE.dto2entity(merchantDTO);
         //设置审核状态0‐未申请,1‐已申请待审核,2‐审核通过,3‐审核拒绝
         merchant.setAuditStatus("0");
-        //设置手机号
-        merchant.setMobile(merchantDTO.getMobile());
 
         //将商户信息存入merchant表
         merchantMapper.insert(merchant);
 
-        //将新增商户id返回
-        merchantDTO.setId(merchant.getId());
+        //将新增商户entity返回成Dto
+        MerchantDTO merchantDTO1 = MerchantConvert.INSTANCE.entity2dto(merchant);
 
-        return merchantDTO;
+        return merchantDTO1;
 
     }
 }

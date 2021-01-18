@@ -1,4 +1,4 @@
-package com.huiminpay.common.cache.util;
+package com.huiminpay.common.util;
 
 import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;

@@ -1,8 +1,7 @@
 package com.huiminpay.merchant.service.impl;
 
-import com.alibaba.fastjson.JSON;
 import com.huiminpay.merchant.service.api.SmsService;
-import jdk.internal.instrumentation.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
@@ -21,7 +20,9 @@ import java.util.Map;
  * @since JDK 1.8
  */
 
+
 @Service
+@Slf4j
 public class SmsServiceImpl implements SmsService {
 
     @Autowired
@@ -81,10 +82,11 @@ public class SmsServiceImpl implements SmsService {
         //请求校验验证码
             ResponseEntity<Map> exchange = restTemplate.exchange(url, HttpMethod.POST, HttpEntity.EMPTY, Map.class);
             responseMap = exchange.getBody();
-            //log.info("校验验证码，响应内容：{}", JSON.toJSONString(responseMap));
+          //  log.info("校验验证码，响应内容：{}", JSON.toJSONString(responseMap));
         } catch (Exception e) {
             e.printStackTrace();
-            //log.info(e.getMessage(), e);
+          //
+            //  log.info(e.getMessage(), e);
             throw new RuntimeException("验证码错误");
         }
 

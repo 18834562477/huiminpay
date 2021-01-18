@@ -1,5 +1,6 @@
 package com.huiminpay.merchant.controller;
 
+import com.huiminpay.merchant.convert.MerchantRegisterConvert;
 import com.huiminpay.merchant.dto.MerchantDTO;
 import com.huiminpay.merchant.service.MerchantServiceApi;
 import com.huiminpay.merchant.service.impl.SmsServiceImpl;
@@ -53,7 +54,7 @@ public class MerchantController {
      */
     @ApiOperation(value = "发送验证码")//  get/sms/code?mobile=1111111
     @ApiImplicitParam(value = "手机号", name = "mobile", dataType = "String", paramType = "query", required = true)
-    @GetMapping("/sms")
+    @GetMapping("/merchants/sms")
     public String getSmsKey(@RequestParam("mobile") String mobile) {
         //
         String smsKey = smsServiceImpl.getSmsKey(mobile);
@@ -71,12 +72,18 @@ public class MerchantController {
                 merchantRegister.getVerifiyCode()
         );
         //注册商户
-        MerchantDTO merchantDTO = new MerchantDTO();
-        merchantDTO.setUsername(merchantRegister.getUsername());
-        merchantDTO.setMobile(merchantRegister.getMobile());
-        merchantDTO.setPassword(merchantRegister.getPassword());
-        merchantService.createMerchant(merchantDTO);
-        return merchantRegister;
+        //MerchantDTO merchantDTO = new MerchantDTO();
+        // Vo→DTO
+        //BeanUtils.copyProperties(merchantRegister,merchantDTO);
+
+        MerchantDTO merchantDTO = MerchantRegisterConvert.INSTANCE.vo2dto(merchantRegister);
+        MerchantDTO merchantDtoDb = merchantService.createMerchant(merchantDTO);
+
+        // 返回的DTO → Vo
+        //BeanUtils.copyProperties(merchantDtoDb,merchantRegister);
+        MerchantRegisterVO merchantRegisterVO = MerchantRegisterConvert.INSTANCE.dto2vo(merchantDtoDb);
+
+        return merchantRegisterVO;
     }
 
 

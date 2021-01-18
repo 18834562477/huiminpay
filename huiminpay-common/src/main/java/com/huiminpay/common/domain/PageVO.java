@@ -1,4 +1,4 @@
-package com.huiminpay.common.cache.domain;
+package com.huiminpay.common.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;

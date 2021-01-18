@@ -26,18 +26,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dfe76e2-eebb-46db-b799-00b0b12235d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/huiminpay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huiminpay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-common/huiminpay-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-common/huiminpay-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/huiminpay-merchant-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/controller/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/huiminpay-merchant-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-api/huiminpay-merchant-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java/com/huiminpay/merchant/service/impl/MerchantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/src/main/java/com/huiminpay/merchant/service/impl/MerchantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/huiminpay-merchant/huiminpay-merchant-service/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,13 +96,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/huiminpay-merchant-application/src/main/java/com/huiminpay/merchant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,19 +123,29 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MerchantBootstrap">
-    <configuration name="TestRestTemplate.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="huiminpay-merchant-application" />
+  <component name="RunManager" selected="Application.MerchantConvert">
+    <configuration name="MerchantConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huiminpay.merchant.convert.MerchantConvert" />
+      <module name="huiminpay-merchant-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huiminpay.merchant.*" />
+          <option name="PATTERN" value="com.huiminpay.merchant.convert.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huiminpay.merchant" />
-      <option name="MAIN_CLASS_NAME" value="com.huiminpay.merchant.TestRestTemplate" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MerchantRegisterConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huiminpay.merchant.convert.MerchantRegisterConvert" />
+      <module name="huiminpay-merchant-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huiminpay.merchant.convert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,10 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MerchantBootstrap" />
+        <item itemvalue="Application.MerchantConvert" />
+        <item itemvalue="Application.MerchantRegisterConvert" />
         <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
+        <item itemvalue="Spring Boot.MerchantBootstrap" />
         <item itemvalue="JUnit.TestRestTemplate.fun1" />
-        <item itemvalue="JUnit.TestRestTemplate.fun" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +221,8 @@
       <workItem from="1610692988517" duration="9816000" />
       <workItem from="1610708364347" duration="547000" />
       <workItem from="1610933924129" duration="572000" />
-      <workItem from="1610935137845" duration="1289000" />
+      <workItem from="1610935137845" duration="3234000" />
+      <workItem from="1610949979634" duration="6102000" />
     </task>
     <task id="LOCAL-00001" summary="huiminpay">
       <created>1610597351719</created>
@@ -236,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610934465136</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加商户">
+      <created>1610937537577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610937537577</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,50 +364,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610699016504" />
-    <state x="685" y="118" key="CommitChangelistDialog2" timestamp="1610934464412">
+    <state x="609" y="81" key="CommitChangelistDialog2" timestamp="1610937536881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610934464412" />
-    <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610694457624">
+    <state x="609" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610937536881" />
+    <state x="914" y="413" key="FileChooserDialogImpl" timestamp="1610955253913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="914" y="413" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610694457624" />
-    <state width="963" height="170" key="GridCell.Tab.0.bottom" timestamp="1610708912202">
+    <state x="914" y="413" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610955253913" />
+    <state width="1545" height="71" key="GridCell.Tab.0.bottom" timestamp="1610957065831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.0.center" timestamp="1610708912202">
+    <state width="1545" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610957065831" />
+    <state width="1545" height="71" key="GridCell.Tab.0.center" timestamp="1610957065831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.0.left" timestamp="1610708912202">
+    <state width="1545" height="71" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610957065831" />
+    <state width="1545" height="71" key="GridCell.Tab.0.left" timestamp="1610957065831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.0.right" timestamp="1610708912202">
+    <state width="1545" height="71" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610957065831" />
+    <state width="1545" height="71" key="GridCell.Tab.0.right" timestamp="1610957065831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.1.bottom" timestamp="1610708912202">
+    <state width="1545" height="71" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610957065831" />
+    <state width="1180" height="100" key="GridCell.Tab.1.bottom" timestamp="1610956288352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.1.center" timestamp="1610708912202">
+    <state width="1180" height="100" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610956288352" />
+    <state width="1180" height="100" key="GridCell.Tab.1.center" timestamp="1610956288352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.1.left" timestamp="1610708912202">
+    <state width="1180" height="100" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610956288352" />
+    <state width="1180" height="100" key="GridCell.Tab.1.left" timestamp="1610956288352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state width="963" height="170" key="GridCell.Tab.1.right" timestamp="1610708912202">
+    <state width="1180" height="100" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610956288352" />
+    <state width="1180" height="100" key="GridCell.Tab.1.right" timestamp="1610956288352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="963" height="170" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610708912202" />
-    <state x="593" y="158" key="SettingsEditor" timestamp="1610934359264">
+    <state width="1180" height="100" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610956288352" />
+    <state x="593" y="158" key="SettingsEditor" timestamp="1610937812850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="593" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610934359264" />
+    <state x="593" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610937812850" />
     <state x="739" y="250" key="Vcs.Push.Dialog.v2" timestamp="1610933950477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

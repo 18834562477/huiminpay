@@ -1,4 +1,4 @@
-package com.huiminpay.common.cache.util;
+package com.huiminpay.common.util;
 
 
 import org.apache.commons.lang.RandomStringUtils;

@@ -1,7 +1,7 @@
 /**
  * @(#)JsonUtil.java 2014-2-23 下午5:44:19
  */
-package com.huiminpay.common.cache.util;
+package com.huiminpay.common.util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;
